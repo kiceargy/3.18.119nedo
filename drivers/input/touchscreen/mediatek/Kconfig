@@ -199,51 +199,29 @@ config TOUCHSCREEN_LGE_FT8707
 	  connected to your system.
 	  To compile this dirver as a module, choose M here: the
 	  module will be called.
+	  
 config TOUCHSCREEN_MTK_MSG22XX
-
 	bool "MSG22XX for Mediatek package"
-
 	default n
-
 	help
-
-	  Say Y here if you have MSG22xx touch panel.
-
-
+	  Say Y here if you have msg2xx touch panel.
 
 	  If unsure, say N.
 
-
-
 	  To compile this dirver as a module, choose M here: the
-
 	  module will be called.
-
-
 
 config TOUCHSCREEN_MTK_FT6336U
-
 	bool "FT6336U for Mediatek package"
-
 	default n
-
 	help
-
 	  Say Y here if you have FT6336U touch panel.
-
-
 
 	  If unsure, say N.
 
-
-
 	  To compile this dirver as a module, choose M here: the
-
 	  module will be called.
 
-
-
 source "drivers/input/touchscreen/mediatek/ft6336u/Kconfig"
-
 
 endif
